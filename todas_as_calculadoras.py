@@ -13,8 +13,6 @@ def byteParaBit(valorASerConvertido):
     return bitsCalculado
 
 
-
-
 def converterStringParaFloat(value):
     print('Valor convertido de str para float')
     return float(value)
@@ -61,6 +59,19 @@ def GigabyteParaMegabyte(valorASerConvertido):
     return gigabyteCalculado
 
 
+def converterStringParaFloat(value):
+    print('Valor convertido de str para float')
+    return float(value)
+
+def terabyteparagigabyte(valorASerConvertido):
+    print('Valor convertido de gigabyte para terabyte')
+    terabytesCalculado = valorASerConvertido / 1024
+    return terabytesCalculado
+
+def gigabyteParaterabyte(valorASerConvertido):
+    print('Valor convertido de terabyte para gigabyte')
+    gigabyteCalculado = valorASerConvertido * 1024
+    return gigabyteCalculado
 
 
 def converterStringParaFloat(value):
