@@ -13,12 +13,6 @@ def byteParaBit(valorASerConvertido):
     return bitsCalculado
 
 
-
-
-def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
-    return float(value)
-
 def byteparakilobyte(valorASerConvertido):
     print('Valor convertido de byte para Kilobyte')
     kilobytesCalculado = valorASerConvertido / 1024
@@ -29,11 +23,6 @@ def kylobyteParabyte(valorASerConvertido):
     byteCalculado = valorASerConvertido * 1024
     return byteCalculado
 
-
-
-def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
-    return float(value)
 
 def Kilobyteparamegabyte(valorASerConvertido):
     print('Valor convertido de kilobyte para megabyte')
@@ -46,34 +35,24 @@ def megabyteParakilobyte(valorASerConvertido):
     return kilobyteCalculado
 
 
-def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
-    return float(value)
-
 def MegabyteParagigabyte(valorASerConvertido):
     print('Valor convertido de megabyte para gigabyte')
-    megabytesCalculado = valorASerConvertido / 1024
-    return megabytesCalculado
+    gigabytesCalculado = valorASerConvertido / 1024
+    return gigabytesCalculado
 
 def GigabyteParaMegabyte(valorASerConvertido):
     print('Valor convertido de gigabyte para megabyte')
-    gigabyteCalculado = valorASerConvertido * 1024
-    return gigabyteCalculado
+    megabyteCalculado = valorASerConvertido * 1024
+    return megabyteCalculado
 
-
-
-
-def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
-    return float(value)
 
 def terabyteparapetabyte(valorASerConvertido):
     print('Valor convertido de terabyte para petabyte')
-    megabytesCalculado = valorASerConvertido / 1024
-    return megabytesCalculado
+    petabytesCalculado = valorASerConvertido / 1024
+    return petabytesCalculado
 
 def petabyteParaterabyte(valorASerConvertido):
     print('Valor convertido de petabyte para terabyte')
-    kilobyteCalculado = valorASerConvertido * 1024
-    return kilobyteCalculado
+    terabyteCalculado = valorASerConvertido * 1024
+    return terabyteCalculado
 
