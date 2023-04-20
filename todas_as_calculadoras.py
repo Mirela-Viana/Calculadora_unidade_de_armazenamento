@@ -45,6 +45,15 @@ def GigabyteParaMegabyte(valorASerConvertido):
     megabyteCalculado = valorASerConvertido * 1024
     return megabyteCalculado
 
+def gigabyteparaterabyte(valorASerConvertido):
+    print('Valor convertido de terabyte para petabyte')
+    terabytesCalculado = valorASerConvertido / 1024
+    return terabytesCalculado
+
+def terabyteParagigabyte(valorASerConvertido):
+    print('Valor convertido de petabyte para terabyte')
+    gigabyteCalculado = valorASerConvertido * 1024
+    return gigabyteCalculado
 
 def terabyteparapetabyte(valorASerConvertido):
     print('Valor convertido de terabyte para petabyte')
