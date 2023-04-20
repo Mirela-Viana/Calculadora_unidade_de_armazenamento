@@ -44,7 +44,7 @@ elif(funcEscolha == '8'):
     valorConvertido = GigabyteParaMegabyte(entradaDoTecladoValorASerConvertido)
     print(valorConvertido)
 
-    elif(funcEscolha == '9'):
+elif(funcEscolha == '9'):
     entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
     valorConvertido = terabyteparapetabyte (entradaDoTecladoValorASerConvertido)
     print(valorConvertido)
