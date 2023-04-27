@@ -31,13 +31,6 @@ def calculo (valorinicial, uni1, uni2):
 print('Resultado da conversão:')
 calculo(valorinicial,uni1,uni2)
 
-unidade= int(input())
-Unidade2 = ['Bit', 'Byte', 'KB', 'MB', 'GB', 'TB', 'PB']
-uni1= input()
-uni2= input()
-pos1= int|(input())
-
-
 
 
 
