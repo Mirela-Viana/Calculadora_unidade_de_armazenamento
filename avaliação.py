@@ -17,17 +17,15 @@ def calculo (valorinicial, uni1, uni2):
         valorFinal = valorFinal/8
         uni1 = 'Byte'
 
-    if(Unidade1.index(uni1) > Unidade1.index(uni2)):
+    if(Unidade1.index(uni1) < Unidade1.index(uni2)):
         for i in range(Unidade1.index(uni1), Unidade1.index(uni2)):
             valorFinal = valorFinal / valor1
-
-        else:
-            for i in range(Unidade1.index(uni1), Unidade1.index(uni2),-1):
-                valorFinal = valorFinal * valor1
+    else:
+        for i in range(Unidade1.index(uni1), Unidade1.index(uni2),-1):
+            valorFinal = valorFinal * valor1
         if(uni2 == "Bit"):
             valorFinal = (valorFinal / valor1) * 8
     return print(valorFinal)
-
 print('Resultado da conversão:')
 calculo(valorinicial,uni1,uni2)
 
